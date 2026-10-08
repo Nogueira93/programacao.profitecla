@@ -8,3 +8,15 @@ printf("textos\n");
 return 0;
 
 }
+
+#include <stdio.h>
+
+int main(){
+
+    int escolha, palpite;
+
+    printf("E E EEEUROMILHOES\n 1000 NUMEROS PARA 130 MILHOES\n\n Esolha um numero de 1-1000");
+
+    scanf("%d", &escolha);
+    printf("%d", escolha);
+}
