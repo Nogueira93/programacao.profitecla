@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int main(){
+
+    int escolha, palpite;
+
+    printf("Esolha um numero de 1-1000:");
+
+    scanf("%d", &escolha);
+    while(palpite!=escolha){
+    printf("Palpite?");
+    scanf("%d", &palpite);
+
+    if (palpite == escolha) {
+        printf("GANHOU\n");
+    } else if(palpite>escolha) {
+        printf("menor\n");
+        
+    }
+    else{
+        printf("maior\n");
+    }
+    }
+    }
