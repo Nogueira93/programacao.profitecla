@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+ int main(){
+
+ int contador ,turma;
+
+ printf("Qual é o tamanho da turma?");
+scanf("%d",&turma);
+
+int var[turma];
+contador=0;
+
+     while(contador!=turma)
+         {
+   
+         }
+     var[contador]=contador+1;   
+     printf("var[%d", contador);
+     printf("]=%d",var[contador]);
+     contador++;
+ }
